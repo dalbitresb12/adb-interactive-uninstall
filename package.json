@@ -1,0 +1,19 @@
+{
+  "name": "adb-interactive-uninstall",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "type": "module",
+  "author": "Diego Albitres <diego.albitres@gmail.com> (https://dalbitresb.com/)",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@devicefarmer/adbkit": "^3.2.2",
+    "fuse.js": "^6.5.3",
+    "google-play-scraper": "^8.1.0",
+    "inquirer": "^8.2.3",
+    "inquirer-checkbox-plus-prompt": "^1.0.1"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  }
+}
